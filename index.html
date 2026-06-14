@@ -79,14 +79,14 @@
                     <div class="col-lg-3 col-md-6 text-center ">
                         <div class="mt-5">
                             <!-- <div class="mb-2"><i class="bi bi-bullseye fs-1 text-primary"></i></div> -->
-                            <h3 class="h4 mb-2">Astrología</h3>
+                          <a class="text-decoration-none text-white" href="https://tiendanaturistadondiego.blogspot.com/2026/05/astrologia.html" target="_blank" rel="noopener noreferrer"><h3 class="h4 mb-2">Astrología</h3></a>  
                             <p class="text-muted mb-0">Carta Natal y moderna astrología  </p>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 text-center">
                         <div class="mt-5">
                             <div class="mb-2"><i class="bi bi-claude fs-1 text-primary"></i></div>
-                            <h3 class="h4 mb-2">Medicina Natural</h3>
+                             <a class="text-decoration-none text-white" href="https://tiendanaturistadondiego.blogspot.com/2026/06/medicina-natural.html" target="_blank" rel="noopener noreferrer"><h3 class="h4 mb-2">Medicina Natural</h3></a>  
                             <p class="text-muted mb-0">Plantas medicinales para distintas enfermedades.</p>
                         </div>
                     </div>
@@ -180,10 +180,10 @@
         <section class="page-section" id="contact">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
-                    <div class="col-lg-8 col-xl-6 text-center">
+                    <div class="col-lg-8 col-xl-6 text-center text-white">
                         <h2 class="mt-0">Ponte en contacto conmigo </h2>
                         <hr class="divider" />
-                        <p class="text-muted mb-5">Listo para conocer tu destino? Escríbenos para hacerte el estudio astrológico y tirarte las cartas del tarot. Haz tu consulta...</p>
+                        <p class="mb-5">Listo para conocer tu destino? Escríbenos para hacerte el estudio astrológico y tirarte las cartas del tarot. Haz tu consulta...</p>
                     </div>
                 </div>
                 <div class="row gx-4 gx-lg-5 justify-content-center mb-5">
@@ -195,29 +195,29 @@
                         <!-- To make this form functional, sign up at-->
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="74566ccd-5732-442c-9ef2-7a4a09d53f41">
+                        <form action="https://formspree.io/f/xlgkazyz" method="POST">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <input class="form-control" id="name" type="text" name="name" placeholder="Enter your name..." data-sb-validations="required" />
                                 <label for="name">Nombre completo</label>
                                 <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
                             </div>
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" id="email" type="email" name="email" placeholder="name@example.com" data-sb-validations="required,email" />
                                 <label for="email">Correo electrónico</label>
                                 <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
                                 <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
                             </div>
                             <!-- Phone number input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
+                                <input class="form-control" id="phone" type="tel" name="phone" placeholder="(123) 456-7890" data-sb-validations="required" />
                                 <label for="phone">Teléfono</label>
                                 <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
                             </div>
                             <!-- Message input-->
                             <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                                <textarea class="form-control" id="message" type="text" name="message" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
                                 <label for="message">Mensaje</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
@@ -254,7 +254,7 @@
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5 ">
-            <div class="container px-4 px-lg-5"><div class="small text-center text-muted ">Derechos Reservados &copy; 2026 - Tienda Naturista Don Diego</div></div>
+            <div class="container px-4 px-lg-5"><div class="small text-center">Derechos Reservados &copy; 2026 - Tienda Naturista Don Diego</div></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
